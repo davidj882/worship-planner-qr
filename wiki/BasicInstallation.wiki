@@ -7,11 +7,15 @@ Worship Planner QR requires a web server running MySQL and PHP 4.3 or newer. It 
 
 Version 0.9 was updated to resolve some problems associated with changes in the default settings in PHP 5. Testing on my systems indicates that all features are working properly, but please let me know if you experience problems. Version 0.95 has some improved security, and a better email feature.
 
+
 = Downloading =
 
 The current version can be obtained from this site.  If, for some reason you want to obtain an old version you can go to the old worship planner site: http://www.worshipplanner.net.
 
-= First-Time Installation =
+
+= Installation =
+
+== First-Time Installation ==
 
 Installation is fairly straightforward if you know how to create a database on your web host. Here are the required steps:
 
@@ -24,9 +28,8 @@ Installation is fairly straightforward if you know how to create a database on y
 
 You're ready to start using the program! If you encounter errors, please contact me so I can make Worship Planner QR better for everyone!
 
-= Upgrading from a Previous Version =
+== Upgrading from a Previous Version ==
 
 placeholder
-
 
 
