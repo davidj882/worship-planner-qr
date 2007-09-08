@@ -11,8 +11,7 @@ Version 0.9 was updated to resolve some problems associated with changes in the 
 
 The current version can be obtained from this site.  If, for some reason you want to obtain an old version you can go to the old worship planner site: http://www.worshipplanner.net.
 
-= Installation =
-
+= First-Time Installation =
 
 Installation is fairly straightforward if you know how to create a database on your web host. Here are the required steps:
 
@@ -23,11 +22,11 @@ Installation is fairly straightforward if you know how to create a database on y
   # Next open the file `createdates.php` in the same manner.
   # Finally go to `<your web page url>/WorshipPlanner`, or the directory where you installed Worship Planner QR. Log in with the default user name Admin and password admin. For security you should change the password. You could also change the permissions on the files `createtables.php` and `createdates.php` using `chmod 400` so that no one can open these files at a later time.
 
-
 You're ready to start using the program! If you encounter errors, please contact me so I can make Worship Planner QR better for everyone!
 
+= Upgrading from a Previous Version =
 
-
+placeholder
 
 
 
