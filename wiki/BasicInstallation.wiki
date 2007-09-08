@@ -1,5 +1,5 @@
+#summary Basic Installation Instructions for Worship Planner QR
 #labels Phase-Deploy
-# Basic Installation Instructions for Worship Planner QR
 
 = Requirements =
 
