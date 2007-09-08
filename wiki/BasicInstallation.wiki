@@ -1,5 +1,5 @@
 #summary Basic Installation Instructions for Worship Planner QR
-#labels Phase-Deploy
+#labels Phase-Deploy,Featured
 
 = Requirements =
 
@@ -25,7 +25,6 @@ Installation is fairly straightforward if you know how to create a database on y
 
 
 You're ready to start using the program! If you encounter errors, please contact me so I can make Worship Planner QR better for everyone!
-
 
 
 
