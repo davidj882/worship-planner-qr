@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:xml="http://www.w3.org/XML/1998/namespace"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.40+cvs"
+   sodipodi:docbase="D:\My Documents\Aaron Docs\www\WorshipPlannerQR\images"
+   sodipodi:docname="WorshipPlannerQRHeader.svg">
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient2918">
+      <stop
+         style="stop-color:#858585;stop-opacity:1.0000000;"
+         offset="0.00000000"
+         id="stop2920" />
+      <stop
+         style="stop-color:#8f8f8f;stop-opacity:0.00000000;"
+         offset="1.0000000"
+         id="stop2922" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2918"
+       id="linearGradient2924"
+       gradientTransform="scale(1.149831,0.869693)"
+       x1="188.03349"
+       y1="487.48401"
+       x2="238.92384"
+       y2="517.11908"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2918"
+       id="linearGradient2930"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(1.149831,0.869693)"
+       x1="188.03349"
+       y1="487.48401"
+       x2="238.92384"
+       y2="517.11908" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2918"
+       id="linearGradient2932"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(1.149831,0.869693)"
+       x1="188.03349"
+       y1="487.48401"
+       x2="238.92384"
+       y2="517.11908" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2918"
+       id="linearGradient2934"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(1.149831,0.869693)"
+       x1="188.03349"
+       y1="487.48401"
+       x2="238.92384"
+       y2="517.11908" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2918"
+       id="linearGradient2936"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(1.149831,0.869693)"
+       x1="188.03349"
+       y1="487.48401"
+       x2="238.92384"
+       y2="517.11908" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0000000"
+     inkscape:cx="359.00000"
+     inkscape:cy="531.98425"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     inkscape:window-width="1152"
+     inkscape:window-height="838"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF
+       id="RDF5">
+      <cc:Work
+         rdf:about=""
+         id="Work6">
+        <dc:format
+           id="format7">image/svg+xml</dc:format>
+        <dc:type
+           id="type9"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:none"
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Background">
+    <rect
+       style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:2.0000000;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000"
+       id="rect3700"
+       width="699.00000"
+       height="539.00000"
+       x="-7.0000000"
+       y="197.36218"
+       rx="10.424490"
+       ry="10.424490" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Logo">
+    <g
+       id="g5136"
+       transform="translate(546.0000,101.0000)"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\QRCC_Q.png"
+       inkscape:export-xdpi="73.961632"
+       inkscape:export-ydpi="73.961632">
+      <path
+         style="fill:#afafaf;fill-opacity:1.0000000"
+         d="M 76.000000,289.37500 C 53.368000,289.37500 35.000000,306.84700 35.000000,328.37500 C 35.000000,349.90300 53.368000,367.37500 76.000000,367.37500 C 98.632000,367.37500 117.00000,349.90300 117.00000,328.37500 C 117.00000,306.84700 98.632000,289.37500 76.000000,289.37500 z M 72.500000,295.37500 C 90.440000,295.37500 105.00000,309.93500 105.00000,327.87500 C 105.00000,345.81500 90.440000,360.37500 72.500000,360.37500 C 54.560000,360.37500 40.000000,345.81500 40.000000,327.87500 C 40.000000,309.93500 54.560000,295.37500 72.500000,295.37500 z "
+         id="path2082" />
+      <path
+         style="fill:#afafaf;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+         d="M 91.885170,325.23487 L 126.26353,324.03380 L 126.12019,332.03100 L 91.778360,331.19357 L 91.885170,325.23487 z "
+         id="path2860" />
+    </g>
+    <g
+       inkscape:export-ydpi="74.639153"
+       inkscape:export-xdpi="74.639153"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\welcome.png"
+       transform="translate(-14.00000,0.000000)"
+       id="g8189"
+       style="fill:none;fill-opacity:1.0000000">
+      <path
+         id="rect2087"
+         d="M 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141 C 33.032860,526.62009 33.111357,526.57040 33.197639,526.57040 L 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 z "
+         style="fill:none;fill-opacity:1.0000000;stroke:none;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path5913"
+         d="M 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141"
+         style="fill:none;fill-opacity:1.0000000;stroke:#a7a7a7;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+    </g>
+    <g
+       inkscape:export-ydpi="74.639153"
+       inkscape:export-xdpi="74.639153"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\user.png"
+       transform="translate(142.0000,0.000000)"
+       id="g8193"
+       style="fill:none;fill-opacity:1.0000000">
+      <path
+         id="path8195"
+         d="M 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141 C 33.032860,526.62009 33.111357,526.57040 33.197639,526.57040 L 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 z "
+         style="fill:none;fill-opacity:1.0000000;stroke:none;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path8197"
+         d="M 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141"
+         style="fill:none;fill-opacity:1.0000000;stroke:#a7a7a7;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+    </g>
+    <g
+       inkscape:export-ydpi="74.639153"
+       inkscape:export-xdpi="74.639153"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\availability.png"
+       transform="translate(300.0000,0.000000)"
+       id="g8199"
+       style="fill:none;fill-opacity:1.0000000">
+      <path
+         id="path8201"
+         d="M 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141 C 33.032860,526.62009 33.111357,526.57040 33.197639,526.57040 L 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 z "
+         style="fill:none;fill-opacity:1.0000000;stroke:none;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path8203"
+         d="M 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141"
+         style="fill:none;fill-opacity:1.0000000;stroke:#a7a7a7;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+    </g>
+    <g
+       inkscape:export-ydpi="74.639168"
+       inkscape:export-xdpi="74.639168"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\songs.png"
+       transform="translate(-23.00000,64.00000)"
+       id="g8205"
+       style="fill:none;fill-opacity:1.0000000">
+      <path
+         id="path8207"
+         d="M 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141 C 33.032860,526.62009 33.111357,526.57040 33.197639,526.57040 L 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 z "
+         style="fill:none;fill-opacity:1.0000000;stroke:none;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path8209"
+         d="M 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141"
+         style="fill:none;fill-opacity:1.0000000;stroke:#a7a7a7;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+    </g>
+    <g
+       inkscape:export-ydpi="74.639168"
+       inkscape:export-xdpi="74.639168"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\programming.png"
+       transform="translate(131.0000,64.00000)"
+       id="g8211"
+       style="fill:none;fill-opacity:1.0000000">
+      <path
+         id="path8213"
+         d="M 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141 C 33.032860,526.62009 33.111357,526.57040 33.197639,526.57040 L 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 z "
+         style="fill:none;fill-opacity:1.0000000;stroke:none;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path8215"
+         d="M 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141"
+         style="fill:none;fill-opacity:1.0000000;stroke:#a7a7a7;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+    </g>
+    <g
+       inkscape:export-ydpi="74.639168"
+       inkscape:export-xdpi="74.639168"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\overview.png"
+       transform="translate(285.0000,64.00000)"
+       id="g8217"
+       style="fill:none;fill-opacity:1.0000000">
+      <path
+         id="path8219"
+         d="M 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141 C 33.032860,526.62009 33.111357,526.57040 33.197639,526.57040 L 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 z "
+         style="fill:none;fill-opacity:1.0000000;stroke:none;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path8221"
+         d="M 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141"
+         style="fill:none;fill-opacity:1.0000000;stroke:#a7a7a7;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+    </g>
+    <g
+       inkscape:export-ydpi="74.639153"
+       inkscape:export-xdpi="74.639153"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\schedule.png"
+       transform="translate(445.0000,64.00000)"
+       id="g8223"
+       style="fill:none;fill-opacity:1.0000000">
+      <path
+         id="path8225"
+         d="M 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141 C 33.032860,526.62009 33.111357,526.57040 33.197639,526.57040 L 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 z "
+         style="fill:none;fill-opacity:1.0000000;stroke:none;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path8227"
+         d="M 182.05321,526.57040 C 181.54661,510.19903 170.56764,497.19109 156.91784,497.19109 L 58.082157,497.19109 C 44.418015,497.19109 33.431737,510.22574 32.946787,526.62141"
+         style="fill:none;fill-opacity:1.0000000;stroke:#a7a7a7;stroke-width:1.6187631;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+    </g>
+    <g
+       id="g2926"
+       transform="translate(609.0000,313.0000)">
+      <path
+         style="fill:#afafaf;fill-opacity:1.0000000"
+         d="M 69.000000,348.37500 C 46.368000,348.37500 28.000000,365.84700 28.000000,387.37500 C 28.000000,408.90300 46.368000,426.37500 69.000000,426.37500 C 91.632000,426.37500 110.00000,408.90300 110.00000,387.37500 C 110.00000,365.84700 91.632000,348.37500 69.000000,348.37500 z M 65.500000,354.37500 C 83.440000,354.37500 98.000000,368.93500 98.000000,386.87500 C 98.000000,404.81500 83.440000,419.37500 65.500000,419.37500 C 47.560000,419.37500 33.000000,404.81500 33.000000,386.87500 C 33.000000,368.93500 47.560000,354.37500 65.500000,354.37500 z "
+         id="path9775" />
+      <path
+         style="fill:#afafaf;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+         d="M 84.885170,384.23487 L 119.26353,383.03380 L 119.12019,391.03100 L 84.778360,390.19357 L 84.885170,384.23487 z "
+         id="path9777" />
+    </g>
+    <g
+       id="g2146"
+       style="fill:url(#linearGradient2924);fill-opacity:1.0000000;stroke:none;stroke-opacity:1.0000000"
+       transform="translate(-127.0000,-107.0000)"
+       inkscape:export-filename="D:\My Documents\Aaron Docs\www\WorshipPlannerQR\images\logo.png"
+       inkscape:export-xdpi="88.209999"
+       inkscape:export-ydpi="88.209999">
+      <path
+         style="fill:url(#linearGradient2930);fill-rule:nonzero;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter"
+         id="path2138"
+         d="M 215.23095,414.10637 C 192.67036,408.21192 207.32454,456.50942 241.53996,435.38177 C 226.62195,439.57605 242.88197,422.95208 225.48930,409.44420 L 238.41299,401.35315 C 255.38444,416.16003 249.78863,433.93151 230.39030,444.40490 C 185.85068,468.03483 175.77047,402.28261 228.29058,404.61800 L 215.23095,414.10637 z " />
+      <path
+         style="fill:url(#linearGradient2932);fill-rule:nonzero;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter"
+         id="path2140"
+         d="M 230.20436,424.81099 C 232.49622,433.93557 231.99061,443.10301 230.23664,452.25568 L 216.99291,458.66853 C 218.94652,449.80357 219.70413,440.62996 215.79564,432.15261 L 230.20436,424.81099 z " />
+      <path
+         style="fill:url(#linearGradient2934);fill-rule:nonzero;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter"
+         id="path2142"
+         d="M 232.66104,422.60956 C 238.79337,422.23376 244.53081,424.40903 242.03146,430.71997 L 227.41812,436.71722 C 230.76176,431.52658 225.08765,431.73242 219.57819,432.11481 L 232.66104,422.60956 z " />
+      <path
+         style="fill:url(#linearGradient2936);fill-rule:nonzero;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter"
+         id="path2144"
+         d="M 238.76905,434.61800 C 249.17508,439.83311 258.74142,446.41742 269.32064,451.45223 L 257.56106,459.23033 C 246.93652,454.29411 236.95600,447.11162 225.70942,444.10637 L 238.76905,434.61800 z " />
+    </g>
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="Text"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:60.415726;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#7f7f7f;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Handwriting;text-anchor:start;writing-mode:lr-tb"
+       x="229.76663"
+       y="257.94128"
+       id="text9888"
+       transform="scale(0.742334,1.347103)"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\Banner.png"
+       inkscape:export-xdpi="87.410004"
+       inkscape:export-ydpi="87.410004"><tspan
+         sodipodi:role="line"
+         id="tspan9890"
+         x="229.76663"
+         y="257.94128">Worship Planner QR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:60.415634;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#afafaf;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Handwriting;text-anchor:start;writing-mode:lr-tb"
+       x="227.07207"
+       y="256.45624"
+       id="text1291"
+       transform="scale(0.742334,1.347103)"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\Banner.png"
+       inkscape:export-xdpi="87.410004"
+       inkscape:export-ydpi="87.410004"><tspan
+         sodipodi:role="line"
+         id="tspan1293"
+         x="227.07207"
+         y="256.45624">Worship Planner QR</tspan></text>
+    <text
+       inkscape:export-ydpi="71.958702"
+       inkscape:export-xdpi="71.958702"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\QRCC_Banner.png"
+       xml:space="preserve"
+       style="font-size:25.426426;font-style:normal;font-weight:normal;fill:#7c7c7c;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans"
+       x="269.06714"
+       y="443.12421"
+       id="text10650"
+       transform="scale(1.138514,0.878338)"><tspan
+         sodipodi:role="line"
+         id="tspan10652"
+         x="269.06714"
+         y="443.12421">Programming</tspan></text>
+    <text
+       inkscape:export-ydpi="74.639153"
+       inkscape:export-xdpi="74.639153"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\welcome.png"
+       sodipodi:linespacing="100%"
+       id="text8229"
+       y="518.36218"
+       x="55"
+       style="font-size:16.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#bebebe;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans;text-anchor:start;writing-mode:lr-tb"
+       xml:space="preserve"><tspan
+         y="518.36218"
+         x="55.000000"
+         id="tspan8231"
+         sodipodi:role="line">Welcome</tspan></text>
+    <text
+       inkscape:export-ydpi="74.639153"
+       inkscape:export-xdpi="74.639153"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\user.png"
+       sodipodi:linespacing="100%"
+       id="text9749"
+       y="518.36218"
+       x="211"
+       style="font-size:16.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#bebebe;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans;text-anchor:start;writing-mode:lr-tb"
+       xml:space="preserve"><tspan
+         y="518.36218"
+         x="211.00000"
+         id="tspan9751"
+         sodipodi:role="line">User Info</tspan></text>
+    <text
+       inkscape:export-ydpi="74.639153"
+       inkscape:export-xdpi="74.639153"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\availability.png"
+       sodipodi:linespacing="100%"
+       id="text9753"
+       y="518.36218"
+       x="365"
+       style="font-size:16.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#bebebe;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans;text-anchor:start;writing-mode:lr-tb"
+       xml:space="preserve"><tspan
+         y="518.36218"
+         x="365.00000"
+         id="tspan9755"
+         sodipodi:role="line">Availability</tspan></text>
+    <text
+       inkscape:export-ydpi="74.639168"
+       inkscape:export-xdpi="74.639168"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\songs.png"
+       sodipodi:linespacing="100%"
+       id="text9757"
+       y="582.36218"
+       x="59"
+       style="font-size:16.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#bebebe;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans;text-anchor:start;writing-mode:lr-tb"
+       xml:space="preserve"><tspan
+         y="582.36218"
+         x="59.000000"
+         id="tspan9759"
+         sodipodi:role="line">Songs</tspan></text>
+    <text
+       inkscape:export-ydpi="74.639168"
+       inkscape:export-xdpi="74.639168"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\programming.png"
+       sodipodi:linespacing="100%"
+       id="text9761"
+       y="582.36218"
+       x="177"
+       style="font-size:14.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#bebebe;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans;text-anchor:start;writing-mode:lr-tb"
+       xml:space="preserve"><tspan
+         y="582.36218"
+         x="177.00000"
+         id="tspan9763"
+         sodipodi:role="line">Programming Info</tspan></text>
+    <text
+       inkscape:export-ydpi="74.639168"
+       inkscape:export-xdpi="74.639168"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\overview.png"
+       sodipodi:linespacing="100%"
+       id="text9765"
+       y="582.36218"
+       x="335"
+       style="font-size:14.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#bebebe;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans;text-anchor:start;writing-mode:lr-tb"
+       xml:space="preserve"><tspan
+         y="582.36218"
+         x="335.00000"
+         id="tspan9767"
+         sodipodi:role="line">Series Overview</tspan></text>
+    <text
+       inkscape:export-ydpi="74.639153"
+       inkscape:export-xdpi="74.639153"
+       inkscape:export-filename="D:\My Documents\My Pictures\Drawings\schedule.png"
+       sodipodi:linespacing="100%"
+       id="text9769"
+       y="582.36218"
+       x="517"
+       style="font-size:16.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#bebebe;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans;text-anchor:start;writing-mode:lr-tb"
+       xml:space="preserve"><tspan
+         y="582.36218"
+         x="517.00000"
+         id="tspan9771"
+         sodipodi:role="line">Schedule</tspan></text>
+  </g>
+</svg>
