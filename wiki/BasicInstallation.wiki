@@ -30,6 +30,6 @@ You're ready to start using the program! If you encounter errors, please contact
 
 == Upgrading from a Previous Version ==
 
-placeholder
-
-
+  # Make sure you record your settings from var_config.php (In a future version hopefully I will have the capability to automatically transfer your settings, but for now you'll have to re-enter them.  Sorry!)
+  # Download and unzip the new version, update your settings in var_config.php, and upload to your server.
+  # Run the script upgrade.php, which will add some database tables.  You should be ready to go!
