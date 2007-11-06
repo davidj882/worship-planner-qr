@@ -2,12 +2,13 @@
 
 = Planning Page =
 
-http://worship-planner-qr.googlecode.com/files/planning.png
+http://worship-planner-qr.googlecode.com/files/programming.png
 
 
-= Details =
+= Overview Page =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+http://worship-planner-qr.googlecode.com/files/overview.png
+
+= Availability Page =
+
+http://worship-planner-qr.googlecode.com/files/avail_shot.png
