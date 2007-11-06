@@ -1,0 +1,13 @@
+#summary Screenshots from the upcoming version of WPQR
+
+= Planning Page =
+
+http://worship-planner-qr.googlecode.com/files/planning.png
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
