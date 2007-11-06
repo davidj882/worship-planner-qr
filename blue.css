@@ -1,0 +1,84 @@
+body {
+      background-color: #222222;
+      font-family:sans-serif;
+      /*color:#bbbbaa;*/
+      color:white;
+      font-size:medium}
+      
+h1 {font-family:sans-serif;
+	font-size:x-large}
+	
+h2 {font-family:sans-serif;
+	font-size:large;
+	font-style:normal}
+
+th {color:#000000;
+	background-color:#888888}
+	
+a:link    {color:#cccccc}
+a:visited {color:#cccccc}
+a:active  {color:lightblue}
+a:hover   {color:lightblue}
+
+a.songlink:link    {color:#aaaaff}
+a.songlink:visited {color:#aaaaff}
+
+#header {
+	position: relative;
+	display: block;
+	text-align: left;
+}
+#menu1 {
+	/* font-family: "Century Gothic",serif; */
+	display:block;
+	text-align: center;
+	font-size: 1.1em;
+	background-color: #888;
+	border: 2px white solid;
+	width: 100%;
+	font-variant: small-caps;
+	margin-bottom: 0.4em;
+	padding: 0.1em 0 0.1em 0;
+}
+#menu1 a {
+	text-decoration: none;
+	color: white;
+	padding-left: 0.6em;
+	padding-right: 0.6em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	}
+	
+#menu1 a:hover {
+	color: #333;
+	background-color: white;
+	}
+	
+#headerbuttons {
+	font-size: small;
+	/* position: absolute;
+	display: block; */
+	float: right;
+	text-align: right;
+}
+
+#headerbuttons li {
+	list-style-type: none;
+}
+
+#wrapper {
+	background-color: #000033;
+	padding: 1em 1em 1em 1em;
+	margin: 10px 10px 10px 10px;
+	position: relative;
+	display: block;
+	min-height: 90%;
+}
+
+#footer {
+	text-align: left;
+}
+
+.shadedrow {
+	background-color: #000077;
+}
