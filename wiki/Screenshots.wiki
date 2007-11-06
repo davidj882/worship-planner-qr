@@ -1,4 +1,5 @@
 #summary Screenshots from the upcoming version of WPQR
+#labels Featured
 
 = Planning Page =
 
