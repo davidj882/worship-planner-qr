@@ -1,4 +1,5 @@
-<html><head><title>Edit Info</title><link rel='stylesheet' type='text/css' href='qrcc.css' /></head>
+<?php require 'var_config.php'; ?>
+<html><head><title>Edit Info</title><link rel='stylesheet' type='text/css' href='<? echo $stylesheet;?>' /></head>
 <body onload="javascript:reloadMain()" class="popup">
 <script language=javascript>
 function reloadMain(){
