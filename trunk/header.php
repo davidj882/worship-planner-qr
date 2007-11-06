@@ -169,7 +169,7 @@ function showHeaderContent(&$myWP)
 		<html>
 		<head>
 		<title><? echo ($pagetitle); ?></title>
-		<link rel="stylesheet" type="text/css" href="qrcc.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo $stylesheet; ?>" />
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		</head>
@@ -192,7 +192,10 @@ function showHeaderContent(&$myWP)
 			<?php 
 			}  ?>
 			
-			<h1><img src="<?echo($logo);?>" align="top" alt=""/>
+			<h1>
+			   <?php
+			   if($logo<>"") { echo "<img src='$logo' align='top' alt=''/>"; }
+	                    ?>
 			<img src="<?echo($banner);?>" alt="QRCC Worship Programming" align="top"/>
 			</h1>
 
