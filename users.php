@@ -277,7 +277,7 @@ switch($action)
 		<tr>
 		<?PHP if ($myWP->userIsAdmin()) echo("<th>Edit</th>"); // ONLY ADMINISTRATORS CAN EDIT INFO FOR EVERYONE 
 		?> 
-		<th>Name</th><th>Phone</th><th>Email Address</th>
+		<th>Name</th><th>Address/Phone</th><th>Email Address</th>
 		</tr>
 		<?php
 	
