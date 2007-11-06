@@ -1,4 +1,5 @@
-<html><head><title>Add Songs</title><link rel='stylesheet' type='text/css' href='qrcc.css' /></head>
+<?php require 'var_config.php'; ?>
+<html><head><title>Add Songs</title><link rel='stylesheet' type='text/css' href='<?php echo $stylesheet;?>' /></head>
 <body onload="javascript:reloadMain()" class="popup">
 <script language=javascript>
 function reloadMain(){
@@ -71,7 +72,7 @@ for($i=0; $i<$num_results; $i++){
 	}
 	
 	echo("<tr ");
-	if($row["Current"]==0)echo("bgcolor=dddddd");
+	if($row["Current"]==0)echo("class='shadedrow'");
 	echo(">\n<td>");
 	if($num_test_res > 0)echo("<small><small><i><a href='addSongs.php?action=delete&date=$date&SID=".$row["SID"]."'>Remove</a></i></small></small>");
 	echo("</td>");
