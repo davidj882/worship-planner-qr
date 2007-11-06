@@ -12,15 +12,11 @@ $endDate["Day"]=12;
 $endDate["Year"]=2010;
 
 // Edit the values in the quotes below to match your setup
-$dbhost="mysql293.secureserver.net";  //probably don't need to change this
-$dbuser="adh_wpdev";
-$dbpass="wpdevisfun";
-$dbname="adh_wpdev";
 
-//$dbhost="localhost";  //probably don't need to change this
-//$dbuser="root";
-//$dbpass="root";
-//$dbname="WorshipTest";
+$dbhost="localhost";  //probably don't need to change this
+$dbuser="root";
+$dbpass="root";
+$dbname="WorshipTest";
 $mailMethod = "SMTP";  // set to "SMTP" to use an SMTP server,
 					  //  or set to "local" to use your email client on your local machine
 $smtphost = "smtpout.secureserver.net";
