@@ -369,7 +369,8 @@ if(!$action || $action=="Edit" || $action=="add" || $action=="Update"){
 	for($i=0; $i<$num_results; $i++){
 		$row=mysql_fetch_array($result);
 		echo("<tr ");
-		if($row["Current"]==0)echo("bgcolor=dddddd");
+//		if($row["Current"]==0)echo("bgcolor=dddddd");
+		if($row["Current"]==0)echo("class='shadedrow'");
 		echo(">\n<td><input type='radio' name='edit_SID' value='".$row["SID"]."' /></td>");
 		echo("<td><a href='".$PHP_SELF."?action=viewHistory&SID=".$row["SID"]."'>".htmlentities(stripslashes($row["Title"]))."</a></td><td><small>");
 		
