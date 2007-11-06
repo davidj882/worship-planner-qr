@@ -1,5 +1,6 @@
+<?php require'var_config.php'; ?>
 <html>
-<head><title>Assign Parts</title><link rel='stylesheet' type='text/css' href='qrcc.css' /></head>
+<head><title>Assign Parts</title><link rel='stylesheet' type='text/css' href='<?php echo $stylesheet;?>' /></head>
 <body onload="javascript:reloadMain()" class="popup">
 <script language=javascript>
 function reloadMain(){
