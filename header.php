@@ -124,10 +124,8 @@ if(!( $myWP->userIsLoggedIn() )){
 
 function verifyUser($username,$password)
 {
-		//session_start();
 		require 'var_config.php';
-		//echo("$username $password");
-		//echo("DES is " . CRYPT_STD_DES."<br>Extended DES is ".CRYPT_EXT_DES."<br>MD5 is ".CRYPT_MD5."<br>BlowFish is ".CRYPT_BLOWFISH);
+
 		$dbh=mysql_pconnect ("$dbhost", "$dbuser", "$dbpass") or die ('I cannot connect to the database because: ' . mysql_error());
 		mysql_select_db ("$dbname");
 		
