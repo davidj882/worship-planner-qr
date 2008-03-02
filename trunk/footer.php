@@ -4,7 +4,14 @@
 <div id="footer">
 <?php
 
-if($_REQUEST['printable'] == "yes"){
+if(isset($_REQUEST['printable']))
+{
+  $printable = "yes";
+}else{
+  $printable = "no";
+}
+
+if($printable == "yes"){
 	echo("\n</body></html>");
 }else{
 echo("<br><small><i><a href='".$PHP_SELF."?".$QUERY_STRING."&printable=yes'>View Printer-Friendly Version</a></i></small><br>");
