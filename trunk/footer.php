@@ -8,7 +8,7 @@ if($_REQUEST['printable'] == "yes"){
 	echo("\n</body></html>");
 }else{
 echo("<br><small><i><a href='".$PHP_SELF."?".$QUERY_STRING."&printable=yes'>View Printer-Friendly Version</a></i></small><br>");
-echo("<br><br><small><small>Powered by <a href='http://www.worshipplanner.net'>Worship Planner QR</a> 1.1\n");
+echo("<br><br><small><small>Powered by <a href='http://code.google.com/p/worship-planner-qr/'>Worship Planner QR</a> 1.1\n");
 
 	if($myWP->userIsAdmin())
 	{
