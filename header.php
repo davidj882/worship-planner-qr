@@ -215,7 +215,7 @@ function showHeaderContent(&$myWP)
 				<a href="overview.php"><img border=0 src="images/overview.png" alt="Overview of Gatherings &nbsp;&nbsp;&nbsp;"/></a>
 				<a href="viewSchedule.php"><img border=0 src="images/schedule.png" alt="Schedule"/></a>
 				-->
-				<a href="./">Welcome</a>
+				<a href="./index.php">Welcome</a>
 				<a href="users.php">Users</a>
 				<a href="availability.php">Availability</a>
 				<a href="editSongs.php">Songs</a>
