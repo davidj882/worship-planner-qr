@@ -57,7 +57,7 @@ if($action=="Upload Music"){
 	<!-- FORM FOR UPLOADING FILE -->
 	
 	<form enctype="multipart/form-data" action="<?php echo("$PHP_SELF"); ?>	" method="post">
-	<input type="hidden" name="MAX_FILE_SIZE" value="5000000">
+	<input type="hidden" name="MAX_FILE_SIZE" value="10000000">
 	<input name="userfile" size='30' type="file"><br>
 	<small>Make sure there is no punctuation (comma, apostrophe, etc) in the file name!</small><br><br>
 	<input type="hidden" name="edit_SID" value="<?echo $_REQUEST['edit_SID']; ?>">
@@ -344,9 +344,9 @@ if(!$action || $action=="Edit" || $action=="add" || $action=="Update"){
 		<? if($A=="S") echo("<strong><i>"); ?>
 			<a href="<?$PHP_SELF?>?A=S&Z=Z">S-Z</a>&nbsp;&nbsp;&nbsp;
 		<? if($A=="S") echo("</i></strong>"); ?>
-		<? if($A=="A" && $Z=="Z") echo("<strong><i>"); ?>
-			<a href="<?$PHP_SELF?>?A=A&Z=Z">All</a>
-		<? if($A=="A" && $Z=="Z") echo("</i></strong>"); ?>
+		<? if($A=="All" && $Z=="Z") echo("<strong><i>"); ?>
+			<a href="<?$PHP_SELF?>?A=All&Z=Z">All</a>
+		<? if($A=="All" && $Z=="Z") echo("</i></strong>"); ?>
 		</td>
 		</tr>
 		</table>
@@ -357,8 +357,13 @@ if(!$action || $action=="Edit" || $action=="add" || $action=="Update"){
 	
 	
 	// LIST CURRENT SONGS
+
+     if($A=="All"){
+	$query = "SELECT * FROM $Songs ORDER BY Title";
+	  }else{
 	$query = "SELECT * FROM $Songs WHERE Title REGEXP '^[$A-$Z]' ORDER BY Title";
-//	$query = "SELECT * FROM $Songs ORDER BY Title";
+	  }
+
 	$result = mysql_query($query);
 	$num_results=mysql_num_rows($result);
 	
