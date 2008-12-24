@@ -71,7 +71,7 @@ if($result=mysql_query($query)){
 
 echo("Creating table $SongDates...");
 
-$query = "CREATE TABLE `$SongDates` (`Date` date NOT NULL default '0000-00-00',`SID` int(11) NOT NULL default '0') TYPE=MyISAM";
+$query = "CREATE TABLE `$SongDates` (`Date` date NOT NULL default '0000-00-00',`SID` int(11) NOT NULL default '0',`Order` int(11) NOT NULL default '1') TYPE=MyISAM";
 if($result=mysql_query($query)){
 	echo("Success!<br><br>\n");
 } else { echo("Create table failed"); }

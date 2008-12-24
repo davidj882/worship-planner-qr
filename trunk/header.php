@@ -4,6 +4,7 @@ if(!isset($_SESSION['auth_level'])) session_regenerate_id();
 
 require("var_config.php");
 require_once 'class.WorshipPlanner.php';
+include 'customFields.php';
 
 $myWP = new WorshipPlanner;
 

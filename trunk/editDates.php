@@ -1,4 +1,7 @@
-<?php require 'var_config.php'; ?>
+<?php
+require 'var_config.php'; 
+include 'customFields.php';
+?>
 <html><head><title>Edit Info</title><link rel='stylesheet' type='text/css' href='<? echo $stylesheet;?>' /></head>
 <body onload="javascript:reloadMain()" class="popup">
 <script language=javascript>
@@ -25,8 +28,18 @@ if($action=='update'){
 	$newSeries = mysql_real_escape_string($_REQUEST['newSeries']);
 	$newNotes = mysql_real_escape_string($_REQUEST['newNotes']);
 	$newWL = $_REQUEST['newWL'];
-	
-	$query="UPDATE $Dates SET Theme='".$newTheme."', Series='$newSeries', Notes='$newNotes', WL='$newWL' WHERE Date='$date'";
+
+	$customString = '';
+	if(!empty($customFields)){
+	  foreach($customFields as $field=>$label){
+	    $getRequestVariableName = 'new'.$field;
+	    $newValue = mysql_real_escape_string($_REQUEST[$getRequestVariableName]);
+	    $customString = $customString . ", $field='$newValue' ";
+	  }
+	}
+	$query="UPDATE $Dates SET Theme='$newTheme', Series='$newSeries', Notes='$newNotes', WL='$newWL' ";
+	$query = $query . $customString . "WHERE Date='$date'";
+
 	$result=mysql_query($query);
 	if($result)echo("Update Successful!<br><small>Reload main page to see changes</small><br>");
 	else echo("Update Failed.<br>");
@@ -64,8 +77,17 @@ echo("Worship Leader:");
 	echo("</select><br>");
 // End display WL select
 
-echo("<br>Notes: <br><textarea name='newNotes' cols=45 rows=8>".stripslashes($row["Notes"])."</textarea>\n");
+
 echo("<input type='hidden' name='date' value='$date'><input type='hidden' name='action' value='update'>\n");
+if(!empty($customFields)){
+  foreach($customFields as $field=>$label){
+    $tmpstr = "<br/>$label: <input name='new$field' type='text' size=30 value='".stripslashes($row[$field])."' />";
+    echo $tmpstr . "\n";
+  }
+  echo '<br/>';
+}
+
+echo("<br>Notes: <br><textarea name='newNotes' cols=45 rows=8>".stripslashes($row["Notes"])."</textarea>\n");
 echo("<br><input type='submit' value='Update'/></form>");
 
 	
