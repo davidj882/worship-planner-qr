@@ -1,0 +1,7 @@
+#summary Summary of changes in version 1.15
+
+= Version 1.15 =
+
+  *Added simple form to change song order on planning/programming page
+  *Fixed songlist to include songs that begin with numbers
+  *Ability to add custom fields to the Dates table (undocumented at this time)
