@@ -80,7 +80,16 @@ if($action=="view")
 	$query = "SELECT * FROM $Dates WHERE Date='$date'";
 	$result = mysql_query($query);
 	$row = mysql_fetch_array($result);
-
+	//TODO:  display custom fields
+        if(!empty($customFields)){
+	  echo '<table border="0" cellpadding="4">';
+          foreach($customFields as $field=>$label){
+            $tmpstr = "<tr><td align=\"right\">$label:</td><td> ".stripslashes($row[$field])."</td></tr>";
+            echo $tmpstr . "\n";
+          }
+	  echo '</table';
+          echo '<br/><br/>';
+        }
 	$original = array("\n"," ","\t");
 	$replace = array("<br>","&nbsp;","&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
 	echo("<strong><u>Notes:</u><br></strong>".replace_line_breaks(stripslashes($row["Notes"]))."<br><br>");
@@ -138,7 +147,7 @@ if($action=="view")
 	echo("</td><td valign='top'>\n");
 	
 // list songs
-	$query = "SELECT SID FROM $SongDates WHERE Date='$date'";
+	$query = "SELECT SID FROM $SongDates WHERE Date='$date' ORDER BY `Order`";
 	$result = mysql_query($query);
 	if(!$result) echo('No Songs Selected');
 	else 
@@ -178,6 +187,12 @@ if($action=="view")
 		pWindow = window.open(myurl,'pWindow','scrollbars=yes,width=550,height=550')
 		pWindow.focus()
 	}
+
+	function editSongOrder(thedate){
+		myurl='editSongOrder.php?date='+thedate
+		pWindow = window.open(myurl,'pWindow','scrollbars=yes,width=550,height=550')
+		pWindow.focus()
+	}
 	
 	function assignParts(thedate){
 		myurl='assignParts.php?date='+thedate
@@ -189,12 +204,14 @@ if($action=="view")
 <br>
 
 <?php 
-	if(!($_REQUEST['printable']=="yes") && $myWP->userIsLoggedIn())
+	if(!($_REQUEST['printable']=="yes") && $myWP->userIsLoggedIn() && ($auth_level > 1))
 	{ ?>
 		<center>
 		<a href="javascript:editDates(<?echo("'$date'");?>)">Edit Date Info</a>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<a href="javascript:addSongs(<?echo("'$date'");?>)">Add or Delete Songs</a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="javascript:editSongOrder(<?echo("'$date'");?>)">Song Order</a>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<a href="javascript:editPersonnel(<?echo("'$date'");?>)">Add or Delete Musicians</a>
 		</center>
