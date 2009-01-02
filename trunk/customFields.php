@@ -4,10 +4,10 @@
 
 $customFieldLength = '100';  // max number of characters for custom text fields
 
-$customFields = array('Lesson1'=> 'Lesson 1',
-		      'Psalm'  => 'Psalm',
-		      'MessageText' => 'Message Text');
-
+//$customFields = array('Lesson1'=> 'Lesson 1',
+//		      'Psalm'  => 'Psalm',
+//		      'MessageText' => 'Message Text');
+$customFields = array();
 
 // custom fields should be in the form '<fieldName>' => '<display label>'
 // fieldName must be a valid mySQL field name.  The Display label
