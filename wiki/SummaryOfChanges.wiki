@@ -1,4 +1,9 @@
-#summary Summary of changes in version 1.15
+#summary Summary of changes in version 1.15 and onward
+
+= Version 1.16=
+  * IMPORTANT: underscores are no longer replaced by spaces in passwords and other information submitted to the database.  If you upgrade to this version, you may need to change passwords that contain underscores, or use a space instead of an underscore when entering the password.
+  * Fixed a bug where mysql_real_escape_string was not properly called on information submitted to the database
+  * Fixed a bug from version 1.15 where some custom fields (used for development) were not removed properly
 
 = Version 1.15 =
 
