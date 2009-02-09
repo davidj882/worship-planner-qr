@@ -45,6 +45,7 @@ if($mailMethod=="sendmail")
 	$mail->SMTPAuth = $smtpauth;     // turn on SMTP authentication
 	$mail->Username = $smtpuser;  // SMTP username
 	$mail->Password = $smtppass; // SMTP password
+	$mail->Port     = $smtpport;
 	
 	$mail->From     = $FROM;
 	$mail->FromName = "WorshipPlanner Notification";

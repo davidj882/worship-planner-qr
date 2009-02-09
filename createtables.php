@@ -112,7 +112,11 @@ $query = "CREATE TABLE `$WorshipTeam` (`UID` int(11) NOT NULL default '0',";
 // Make user Admin	
 echo("Creating default user Admin...");
 $cryptpass = crypt("admin");
+if ($useOldDBAddQuery){
 $query = "INSERT INTO $Personnel (UID, Name, PhoneAdd, Email, Password, AuthLevel) Values ('','Admin','000-0000','nobody@nobody.net',";
+  } else {
+$query = "INSERT INTO $Personnel (Name, PhoneAdd, Email, Password, AuthLevel) Values ('Admin','000-0000','nobody@nobody.net',";
+  }
 $query = $query."'$cryptpass',3)";
 
  if($result=mysql_query($query)){
