@@ -20,6 +20,7 @@ $dbname="WorshipTest";
 $mailMethod = "SMTP";  // set to "SMTP" to use an SMTP server,
 					  //  or set to "local" to use your email client on your local machine
 $smtphost = "smtpout.secureserver.net";
+$smtpport = 25;
 $smtpauth = true;  // set to true if your SMTP server requires authentication
 $smtpuser = "";
 $smtppass = "";
@@ -31,6 +32,8 @@ $sheetmusic_loc = "/wpdev/sheetmusic/";
 									//   public_html directory
 									
 $stylesheet = "blue.css";
+
+$useOldDBAddQuery = False;
 									
 if(!isset($_SERVER['DOCUMENT_ROOT']))
 {

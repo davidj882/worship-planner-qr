@@ -35,9 +35,15 @@ switch($action)
 		$cryptpass = crypt($_REQUEST['newPass']);
 		$newAuth = $myWP->dbSanitize($_REQUEST['newAuth']);
 		
-		$query = "INSERT INTO ". $Personnel;
-		$query.= " (UID, Name, PhoneAdd, Email, Password, AuthLevel) ";
-		$query.= " Values ('','$newName','$newPhoneAdd','$newEmail','$cryptpass','$newAuth')";
+		  if($useOldDBAddQuery){
+		    $query = "INSERT INTO ". $Personnel;
+		    $query.= " (UID, Name, PhoneAdd, Email, Password, AuthLevel) ";
+		    $query.= " Values ('','$newName','$newPhoneAdd','$newEmail','$cryptpass','$newAuth')";
+		      } else {
+		    $query = "INSERT INTO ". $Personnel;
+		    $query.= " (Name, PhoneAdd, Email, Password, AuthLevel) ";
+		    $query.= " Values ('$newName','$newPhoneAdd','$newEmail','$cryptpass','$newAuth')";
+		      }		    
 		$result = mysql_query($query);
 		
 		if($result)
@@ -68,7 +74,7 @@ switch($action)
 		}
 		
 		
-		if($_REQUEST['newWT']=="Yes"){
+		  if(isset($_REQUEST['newWT']) && $_REQUEST['newWT']=="Yes"){
 			$query = "INSERT INTO " . $WorshipTeam ." (UID) Values ('$userID')";
 			@ $result = mysql_query($query);
 		}
