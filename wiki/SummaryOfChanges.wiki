@@ -1,4 +1,9 @@
 #summary Summary of changes in version 1.15 and onward
+#labels Featured
+= Version 1.17 Beta =
+ * Added support for SSL when sending mail via SMTP
+ * Added the ability to specify a specific port (other than port 25) when sending mail via SMTP
+ * Fixed problem with autoincrementing fields.  The code did not work properly with newer versions of PHP/MySQL, when trying to add users, songs, etc, to the database.  This also created a problem with the initial setup script on some platforms.
 
 = Version 1.16=
   * IMPORTANT: underscores are no longer replaced by spaces in passwords and other information submitted to the database.  If you upgrade to this version, you may need to change passwords that contain underscores, or use a space instead of an underscore when entering the password.
