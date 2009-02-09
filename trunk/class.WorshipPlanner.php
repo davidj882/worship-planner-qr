@@ -143,8 +143,8 @@ class WorshipPlanner
 	{
 		$this->dbConnect() or die('Cannot connect to database');
 		$newstring = mysql_real_escape_string($string);
-		$newstring = str_replace('%',' ',$string);
-		$newstring = str_replace('_',' ',$string);
+		//$newstring = str_replace('%',' ',$string);
+		//$newstring = str_replace('_',' ',$string);
 		return $newstring;
 	}
 	
