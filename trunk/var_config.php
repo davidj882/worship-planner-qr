@@ -1,6 +1,6 @@
 <?php
 // This is the date to start the database.
-// THIS MUST BE A SUNDAY, or whatever day you hold your services.
+// THIS SHOULD BE A SUNDAY, or whatever day you hold your services.
 
 // Only edit the numbers below for start and end dates
 $startDate["Month"]=9;
@@ -19,7 +19,7 @@ $dbpass="root";
 $dbname="WorshipTest";
 $mailMethod = "SMTP";  // set to "SMTP" to use an SMTP server,
 					  //  or set to "local" to use your email client on your local machine
-$smtphost = "smtpout.secureserver.net";
+$smtphost = "smtp.myserver.net";
 $smtpport = 25;
 $smtpauth = true;  // set to true if your SMTP server requires authentication
 $smtpuser = "";
