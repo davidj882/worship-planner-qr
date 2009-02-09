@@ -23,8 +23,13 @@ if($action=="add"){
 	$newAuthor=mysql_real_escape_string($_REQUEST['newAuthor']);
 	$newYear = mysql_real_escape_string($_REQUEST['newYear']);
 	
+	  if($useOldDBAddQuery){
 	$query="INSERT INTO $Songs (SID, Title , Author , Publisher , Year , Current) VALUES (";
 	$query = $query."'','$newTitle','$newAuthor','$newPublisher','$newYear','1');";
+	  } else {
+	$query="INSERT INTO $Songs (Title , Author , Publisher , Year , Current) VALUES (";
+	$query = $query."'$newTitle','$newAuthor','$newPublisher','$newYear','1');";
+	  }
 	$result = mysql_query($query);
 	if(!$result)echo("Error: ".mysql_error()."<br>");
 }
