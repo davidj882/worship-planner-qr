@@ -15,4 +15,4 @@
 
   * Added simple form to change song order on planning/programming page
   * Fixed songlist to include songs that begin with numbers
-  * Ability to add custom fields to the Dates table (undocumented at this time)
+  * Ability to add custom fields to the Dates table (undocumented at this time). Hint: add the fields you want to custom_fields.php, then run the script add_custom_fields.php.
