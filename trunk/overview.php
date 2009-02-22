@@ -51,9 +51,9 @@ if($action=="view" || !$action)
 			$name_row = mysql_fetch_array($name_result);
 			$name = $name_row["Name"];
 			$dateday = date('D', strtotime($row["Date"]));
-			echo("<tr><td>$dateday ".date_convert($row["Date"],3)."</td>\n");
+			echo("<tr><td><a href=\"planning.php?date=".$row["Date"]."&action=view\">$dateday ".date_convert($row["Date"],3)."</a></td>\n");
 			echo("<td>".htmlentities(stripslashes($row["Theme"]))."</td>\n");
-			echo("<td>".$row["Series"]."</td>\n");
+			  echo("<td>".htmlentities(stripslashes($row["Series"]))."</td>\n");
 			echo("<td>".$name."</td></tr>\n");
 				
 			}

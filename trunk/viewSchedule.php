@@ -56,7 +56,7 @@ if((!isset($_SESSION['globalStart'])||!isset($_SESSION['globalEnd']))&&$action!=
 
 	for($i=0;$i<$num_date_results;$i++){
 		$dateday = date('D', strtotime($date[$i]));
-		echo("<tr><th>$dateday ".date_convert($date[$i],3)."</th>\n");
+		echo("<tr><th><a href=\"planning.php?date=".$date[$i]."&action=view\">$dateday ".date_convert($date[$i],3)."</a></th>\n");
 		
 		for($j=0; $j<$num_Name_results; $j++){
 			$query = "SELECT Part FROM $SchedDates WHERE UID='".$userID[$j]."' AND Date='".$date[$i]."'";
