@@ -54,7 +54,8 @@ if($action=="delete"){
 $date = $_REQUEST['date'];
 
 $query = "SELECT $Personnel.UID, $Personnel.Name, $Availability.Available FROM $Personnel, $Availability, $WorshipTeam ";
-$query = $query."WHERE $Availability.Date='$date' AND $Personnel.UID=$Availability.UID AND $Availability.Available>0 AND $Personnel.UID=$WorshipTeam.UID ORDER BY $Personnel.Name";
+//$query = $query."WHERE $Availability.Date='$date' AND $Personnel.UID=$Availability.UID AND $Availability.Available>0 AND $Personnel.UID=$WorshipTeam.UID ORDER BY $Personnel.Name";
+$query = $query."WHERE $Availability.Date='$date' AND $Personnel.UID=$Availability.UID AND $Personnel.UID=$WorshipTeam.UID ORDER BY $Personnel.Name";
 $result = mysql_query($query);
 $num_results=mysql_num_rows($result);
 echo("<h2>Editing Personnel for ".date_convert($date,9)."</h2>");
@@ -69,18 +70,23 @@ for($i=0; $i<$num_results; $i++){
 	$test_result = mysql_query($query);
 	@ $num_test_res=mysql_num_rows($test_result);
 	@ $test_row = mysql_fetch_array($test_result);
-	
-	echo("<tr ");
-	//if($row["Available"]>1)echo("bgcolor=dddddd");
-	if($row["Available"]>1)echo("class=shadedrow ");
-	echo(">\n<td>");
-	if($num_test_res > 0)echo("<small><small><a href='editPersonnel.php?action=delete&date=$date&UID=".$row["UID"]."'><i>Remove</i></a></small></small>");
-	echo("</td>");
-	echo("<td>");
-	echo("<a href='editPersonnel.php?action=add&date=$date&UID=".$row["UID"]."'>".$row["Name"]);
-	if($test_row["Part"])$part=$test_row["Part"];
-	else $part = "not assigned";
-	echo("</a></td><td>$part</td>\n</tr>");
+	  if($num_test_res > 0 || $row["Available"]>0){
+            
+            echo("<tr ");
+            //if($row["Available"]>1)echo("bgcolor=dddddd");
+            if($row["Available"]==2)echo("class=shadedrow ");
+            if($row["Available"]==0)echo("bgcolor=#aa0000 ");
+            echo(">\n<td>");
+	      if($num_test_res > 0){
+		echo("<small><small><a href='editPersonnel.php?action=delete&date=$date&UID=".$row["UID"]."'><i>Remove</i></a></small></small>");
+		  }
+            echo("</td>");
+            echo("<td>");
+            echo("<a href='editPersonnel.php?action=add&date=$date&UID=".$row["UID"]."'>".$row["Name"]);
+            if($test_row["Part"])$part=$test_row["Part"];
+            else $part = "not assigned";
+            echo("</a></td><td>$part</td>\n</tr>");
+	  }
 }
 echo("</table>");
 
